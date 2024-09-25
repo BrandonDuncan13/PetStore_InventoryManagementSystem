@@ -48,12 +48,12 @@ namespace AdriansPetStore_InventoryManagementSystem
 
         private void btnCategory_Click(object sender, EventArgs e)
         {
-            openChildForm(new CategoryForm());
+            openChildForm(new AnimalTypeForm());
         }
 
         private void btnProduct_Click(object sender, EventArgs e)
         {
-            openChildForm(new ProductForm());
+            openChildForm(new AnimalForm());
         }
 
         private void btnOrders_Click(object sender, EventArgs e)

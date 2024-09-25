@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace AdriansPetStore_InventoryManagementSystem
 {
-    public partial class ProductForm : Form
+    public partial class AnimalForm : Form
     {
         // create a connection to the database
-        SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Brandon Duncan\OneDrive\Documents\dbPetStoreIMS.mdf"";Integrated Security=True;Connect Timeout=30");
+        SqlConnection connection = new SqlConnection(@"Data Source=.;Initial Catalog=bduncan;User ID=sa;Password=***********");
         SqlCommand command = new SqlCommand();
         SqlDataReader dataReader;
 
-        public ProductForm()
+        public AnimalForm()
         {
             InitializeComponent();
             LoadProducts();
@@ -48,7 +48,7 @@ namespace AdriansPetStore_InventoryManagementSystem
 
         private void btnProductAdd_Click(object sender, EventArgs e)
         {
-            ProductModuleForm productModule = new ProductModuleForm();
+            AnimalModuleForm productModule = new AnimalModuleForm();
             productModule.btnSave.Enabled = true;
             // can't update since creating user
             productModule.btnUpdate.Enabled = false;
@@ -63,7 +63,7 @@ namespace AdriansPetStore_InventoryManagementSystem
             if (colName == "Edit")
             {
                 // create product module form
-                ProductModuleForm productModule = new ProductModuleForm();
+                AnimalModuleForm productModule = new AnimalModuleForm();
                 // get the current values of the selected row
                 productModule.lblProductId.Text = dgvProduct.Rows[e.RowIndex].Cells[1].Value.ToString();
                 productModule.txtProductName.Text = dgvProduct.Rows[e.RowIndex].Cells[2].Value.ToString();

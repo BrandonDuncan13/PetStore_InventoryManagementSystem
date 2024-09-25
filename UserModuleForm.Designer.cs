@@ -56,7 +56,7 @@
             this.panelTitle.Controls.Add(this.lblTitle);
             this.panelTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitle.Location = new System.Drawing.Point(0, 0);
-            this.panelTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelTitle.Margin = new System.Windows.Forms.Padding(4);
             this.panelTitle.Name = "panelTitle";
             this.panelTitle.Size = new System.Drawing.Size(708, 78);
             this.panelTitle.TabIndex = 0;
@@ -65,7 +65,7 @@
             // 
             this.picBoxClose.Image = ((System.Drawing.Image)(resources.GetObject("picBoxClose.Image")));
             this.picBoxClose.Location = new System.Drawing.Point(678, 0);
-            this.picBoxClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picBoxClose.Margin = new System.Windows.Forms.Padding(4);
             this.picBoxClose.Name = "picBoxClose";
             this.picBoxClose.Size = new System.Drawing.Size(29, 34);
             this.picBoxClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -99,7 +99,7 @@
             // txtUserName
             // 
             this.txtUserName.Location = new System.Drawing.Point(192, 139);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(4);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(439, 22);
             this.txtUserName.TabIndex = 2;
@@ -107,7 +107,7 @@
             // txtFullName
             // 
             this.txtFullName.Location = new System.Drawing.Point(192, 190);
-            this.txtFullName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFullName.Margin = new System.Windows.Forms.Padding(4);
             this.txtFullName.Name = "txtFullName";
             this.txtFullName.Size = new System.Drawing.Size(439, 22);
             this.txtFullName.TabIndex = 4;
@@ -126,10 +126,11 @@
             // txtPass
             // 
             this.txtPass.Location = new System.Drawing.Point(192, 240);
-            this.txtPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(439, 22);
             this.txtPass.TabIndex = 6;
+            this.txtPass.UseSystemPasswordChar = true;
             // 
             // lblPass
             // 
@@ -145,7 +146,7 @@
             // txtPhone
             // 
             this.txtPhone.Location = new System.Drawing.Point(192, 348);
-            this.txtPhone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(4);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(439, 22);
             this.txtPhone.TabIndex = 8;
@@ -169,7 +170,7 @@
             this.btnSave.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.Color.White;
             this.btnSave.Location = new System.Drawing.Point(277, 413);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(109, 48);
             this.btnSave.TabIndex = 9;
@@ -185,7 +186,7 @@
             this.btnUpdate.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
             this.btnUpdate.Location = new System.Drawing.Point(400, 413);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(109, 48);
             this.btnUpdate.TabIndex = 10;
@@ -201,7 +202,7 @@
             this.btnClear.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
             this.btnClear.Location = new System.Drawing.Point(522, 413);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(109, 48);
             this.btnClear.TabIndex = 11;
@@ -212,10 +213,11 @@
             // txtPassRetype
             // 
             this.txtPassRetype.Location = new System.Drawing.Point(192, 295);
-            this.txtPassRetype.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPassRetype.Margin = new System.Windows.Forms.Padding(4);
             this.txtPassRetype.Name = "txtPassRetype";
             this.txtPassRetype.Size = new System.Drawing.Size(439, 22);
             this.txtPassRetype.TabIndex = 13;
+            this.txtPassRetype.UseSystemPasswordChar = true;
             // 
             // lblPassRetype
             // 
@@ -249,7 +251,7 @@
             this.Controls.Add(this.panelTitle);
             this.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UserModuleForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UserModuleForm";

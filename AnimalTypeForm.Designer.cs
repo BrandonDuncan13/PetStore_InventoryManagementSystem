@@ -1,6 +1,6 @@
 ﻿namespace AdriansPetStore_InventoryManagementSystem
 {
-    partial class CategoryForm
+    partial class AnimalTypeForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CategoryForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnimalTypeForm));
             this.dgvCategory = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.panelBottom = new System.Windows.Forms.Panel();

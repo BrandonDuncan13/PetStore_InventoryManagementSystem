@@ -14,7 +14,7 @@ namespace AdriansPetStore_InventoryManagementSystem
     public partial class UserModuleForm : Form
     {
         // create a connection to the database
-        SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Brandon Duncan\OneDrive\Documents\dbPetStoreIMS.mdf"";Integrated Security=True;Connect Timeout=30");
+        SqlConnection connection = new SqlConnection(@"Data Source=.;Initial Catalog=bduncan;User ID=sa;Password=***********");
         SqlCommand command = new SqlCommand();
 
         public UserModuleForm()
