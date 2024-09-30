@@ -9,6 +9,7 @@ Please see the PetStore.sql file to see all of the SQL code for the Pet Store da
 ## Login Form
 Existing users can login to the Pet Store database. 
 ![Login](https://github.com/user-attachments/assets/3f83e3db-7bf0-498d-8887-dfbfb2ea5364)
+
 ![LoginAccept](https://github.com/user-attachments/assets/6c49dfc6-bddd-42c5-beff-18d7e0cf0244)
 
 ## Main Form
