@@ -7,10 +7,11 @@ temporary database and still needs to be modified to fit the Pet Store database 
 Please see the PetStore.sql file to see all of the SQL code for the Pet Store database. 
 
 ## Login Form
-Existing users can login to the Pet Store database. 
+Existing users can login to the Pet Store database.
+
 ![Login](https://github.com/user-attachments/assets/3f83e3db-7bf0-498d-8887-dfbfb2ea5364)
 
-![LoginAccept](https://github.com/user-attachments/assets/6c49dfc6-bddd-42c5-beff-18d7e0cf0244)
+![Login Accept](https://github.com/user-attachments/assets/6c49dfc6-bddd-42c5-beff-18d7e0cf0244)
 
 ## Main Form
 Once logged in, users are taken to the main form with Products, Customers, Categories, Users, and Orders forms they can click on. Each form is populated with database information. 
