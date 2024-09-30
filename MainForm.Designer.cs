@@ -84,7 +84,7 @@
             this.label4.ForeColor = System.Drawing.Color.SeaGreen;
             this.label4.Location = new System.Drawing.Point(504, 63);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 17);
+            this.label4.Size = new System.Drawing.Size(89, 20);
             this.label4.TabIndex = 15;
             this.label4.Text = "CUSTOMER";
             // 
@@ -93,9 +93,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label2.Location = new System.Drawing.Point(418, 63);
+            this.label2.Location = new System.Drawing.Point(420, 63);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 17);
+            this.label2.Size = new System.Drawing.Size(79, 20);
             this.label2.TabIndex = 14;
             this.label2.Text = "PRODUCT";
             // 
@@ -104,9 +104,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label7.Location = new System.Drawing.Point(772, 63);
+            this.label7.Location = new System.Drawing.Point(771, 63);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(54, 17);
+            this.label7.Size = new System.Drawing.Size(66, 20);
             this.label7.TabIndex = 18;
             this.label7.Text = "ORDERS";
             // 
@@ -117,7 +117,7 @@
             this.label6.ForeColor = System.Drawing.Color.SeaGreen;
             this.label6.Location = new System.Drawing.Point(696, 63);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(43, 17);
+            this.label6.Size = new System.Drawing.Size(51, 20);
             this.label6.TabIndex = 17;
             this.label6.Text = "USERS";
             // 
@@ -126,18 +126,18 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label5.Location = new System.Drawing.Point(591, 63);
+            this.label5.Location = new System.Drawing.Point(592, 63);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 17);
+            this.label5.Size = new System.Drawing.Size(90, 20);
             this.label5.TabIndex = 16;
-            this.label5.Text = "CATEGORIES";
+            this.label5.Text = "TYPE/BREED";
             // 
             // btnOrders
             // 
             this.btnOrders.Image = ((System.Drawing.Image)(resources.GetObject("btnOrders.Image")));
             this.btnOrders.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnOrders.ImageHover")));
             this.btnOrders.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnOrders.ImageNormal")));
-            this.btnOrders.Location = new System.Drawing.Point(779, 25);
+            this.btnOrders.Location = new System.Drawing.Point(778, 25);
             this.btnOrders.Name = "btnOrders";
             this.btnOrders.Size = new System.Drawing.Size(38, 35);
             this.btnOrders.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -189,7 +189,7 @@
             this.btnProduct.Image = ((System.Drawing.Image)(resources.GetObject("btnProduct.Image")));
             this.btnProduct.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnProduct.ImageHover")));
             this.btnProduct.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnProduct.ImageNormal")));
-            this.btnProduct.Location = new System.Drawing.Point(426, 25);
+            this.btnProduct.Location = new System.Drawing.Point(427, 25);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Size = new System.Drawing.Size(45, 35);
             this.btnProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -204,7 +204,7 @@
             this.label1.ForeColor = System.Drawing.Color.SeaGreen;
             this.label1.Location = new System.Drawing.Point(3, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(350, 37);
+            this.label1.Size = new System.Drawing.Size(439, 48);
             this.label1.TabIndex = 9;
             this.label1.Text = "Adrian\'s Pet Store";
             // 
@@ -215,7 +215,7 @@
             this.label3.ForeColor = System.Drawing.Color.SeaGreen;
             this.label3.Location = new System.Drawing.Point(7, 59);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(258, 18);
+            this.label3.Size = new System.Drawing.Size(324, 23);
             this.label3.TabIndex = 8;
             this.label3.Text = "INVENTORY MANAGEMENT SYSTEM";
             // 
@@ -251,8 +251,7 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(982, 503);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panel2);

@@ -1,6 +1,6 @@
 ﻿namespace AdriansPetStore_InventoryManagementSystem
 {
-    partial class AnimalTypeModuleForm
+    partial class ProductTypeModuleForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnimalTypeModuleForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductTypeModuleForm));
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelTitle = new System.Windows.Forms.Panel();
             this.picBoxClose = new System.Windows.Forms.PictureBox();

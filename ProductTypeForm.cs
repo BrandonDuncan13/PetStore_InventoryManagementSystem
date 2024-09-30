@@ -11,14 +11,15 @@ using System.Windows.Forms;
 
 namespace AdriansPetStore_InventoryManagementSystem
 {
-    public partial class AnimalTypeForm : Form
+    public partial class ProductTypeForm : Form
     {
         // create a connection to the database
-        SqlConnection connection = new SqlConnection(@"Data Source=.;Initial Catalog=bduncan;User ID=sa;Password=***********");
+        // SqlConnection connection = new SqlConnection(@"Data Source=.;Initial Catalog=bduncan;User ID=sa;Password=1234");
+        SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Brandon Duncan\OneDrive\Documents\dbPetStoreIMS.mdf"";Integrated Security=True;Connect Timeout=30");
         SqlCommand command = new SqlCommand();
         SqlDataReader dataReader;
 
-        public AnimalTypeForm()
+        public ProductTypeForm()
         {
             InitializeComponent();
             LoadCategories();
@@ -49,7 +50,7 @@ namespace AdriansPetStore_InventoryManagementSystem
 
         private void btnCatAdd_Click(object sender, EventArgs e)
         {
-            AnimalTypeModuleForm categoryModule = new AnimalTypeModuleForm();
+            ProductTypeModuleForm categoryModule = new ProductTypeModuleForm();
             categoryModule.btnSave.Enabled = true;
             // can't update since creating user
             categoryModule.btnUpdate.Enabled = false;
@@ -65,7 +66,7 @@ namespace AdriansPetStore_InventoryManagementSystem
             if (colName == "Edit")
             {
                 // create customer module form
-                AnimalTypeModuleForm categoryModule = new AnimalTypeModuleForm();
+                ProductTypeModuleForm categoryModule = new ProductTypeModuleForm();
                 // get the current values of the selected row
                 categoryModule.lblCategoryId.Text = dgvCategory.Rows[e.RowIndex].Cells[1].Value.ToString();
                 categoryModule.txtCategoryName.Text = dgvCategory.Rows[e.RowIndex].Cells[2].Value.ToString();

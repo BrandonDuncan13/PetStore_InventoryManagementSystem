@@ -11,14 +11,15 @@ using System.Windows.Forms;
 
 namespace AdriansPetStore_InventoryManagementSystem
 {
-    public partial class AnimalModuleForm : Form
+    public partial class ProductModuleForm : Form
     {
         // create a connection to the database
-        SqlConnection connection = new SqlConnection(@"Data Source=.;Initial Catalog=bduncan;User ID=sa;Password=***********");
+        // SqlConnection connection = new SqlConnection(@"Data Source=.;Initial Catalog=bduncan;User ID=sa;Password=1234");
+        SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Brandon Duncan\OneDrive\Documents\dbPetStoreIMS.mdf"";Integrated Security=True;Connect Timeout=30");
         SqlCommand command = new SqlCommand();
         SqlDataReader dataReader;
 
-        public AnimalModuleForm()
+        public ProductModuleForm()
         {
             InitializeComponent();
             LoadCategories();

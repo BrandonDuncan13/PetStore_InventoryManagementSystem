@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnimalTypeForm.cs">
+    <Compile Include="ProductTypeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AnimalTypeForm.Designer.cs">
-      <DependentUpon>AnimalTypeForm.cs</DependentUpon>
+    <Compile Include="ProductTypeForm.Designer.cs">
+      <DependentUpon>ProductTypeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AnimalTypeModuleForm.cs">
+    <Compile Include="ProductTypeModuleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AnimalTypeModuleForm.Designer.cs">
-      <DependentUpon>AnimalTypeModuleForm.cs</DependentUpon>
+    <Compile Include="ProductTypeModuleForm.Designer.cs">
+      <DependentUpon>ProductTypeModuleForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomerButton.cs">
       <SubType>Component</SubType>
@@ -100,17 +100,17 @@
     <Compile Include="OrderModuleForm.Designer.cs">
       <DependentUpon>OrderModuleForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AnimalForm.cs">
+    <Compile Include="ProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AnimalForm.Designer.cs">
-      <DependentUpon>AnimalForm.cs</DependentUpon>
+    <Compile Include="ProductForm.Designer.cs">
+      <DependentUpon>ProductForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AnimalModuleForm.cs">
+    <Compile Include="ProductModuleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AnimalModuleForm.Designer.cs">
-      <DependentUpon>AnimalModuleForm.cs</DependentUpon>
+    <Compile Include="ProductModuleForm.Designer.cs">
+      <DependentUpon>ProductModuleForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -126,11 +126,11 @@
     <Compile Include="UserModuleForm.Designer.cs">
       <DependentUpon>UserModuleForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AnimalTypeForm.resx">
-      <DependentUpon>AnimalTypeForm.cs</DependentUpon>
+    <EmbeddedResource Include="ProductTypeForm.resx">
+      <DependentUpon>ProductTypeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AnimalTypeModuleForm.resx">
-      <DependentUpon>AnimalTypeModuleForm.cs</DependentUpon>
+    <EmbeddedResource Include="ProductTypeModuleForm.resx">
+      <DependentUpon>ProductTypeModuleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerButton.resx">
       <DependentUpon>CustomerButton.cs</DependentUpon>
@@ -153,11 +153,11 @@
     <EmbeddedResource Include="OrderModuleForm.resx">
       <DependentUpon>OrderModuleForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AnimalForm.resx">
-      <DependentUpon>AnimalForm.cs</DependentUpon>
+    <EmbeddedResource Include="ProductForm.resx">
+      <DependentUpon>ProductForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AnimalModuleForm.resx">
-      <DependentUpon>AnimalModuleForm.cs</DependentUpon>
+    <EmbeddedResource Include="ProductModuleForm.resx">
+      <DependentUpon>ProductModuleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

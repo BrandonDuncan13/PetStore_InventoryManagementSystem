@@ -17,7 +17,7 @@ C:\Users\Brandon Duncan\OneDrive\Desktop\C#\AdriansPetStore_InventoryManagementS
 C:\Users\Brandon Duncan\OneDrive\Desktop\C#\AdriansPetStore_InventoryManagementSystem\obj\Debug\AdriansPetStore_InventoryManagementSystem.CustomerModuleForm.resources
 C:\Users\Brandon Duncan\OneDrive\Desktop\C#\AdriansPetStore_InventoryManagementSystem\obj\Debug\AdriansPetStore_InventoryManagementSystem.OrderForm.resources
 C:\Users\Brandon Duncan\OneDrive\Desktop\C#\AdriansPetStore_InventoryManagementSystem\obj\Debug\AdriansPetStore_InventoryManagementSystem.OrderModuleForm.resources
-C:\Users\Brandon Duncan\OneDrive\Desktop\C#\AdriansPetStore_InventoryManagementSystem\obj\Debug\AdriansPetStore_InventoryManagementSystem.AnimalTypeForm.resources
-C:\Users\Brandon Duncan\OneDrive\Desktop\C#\AdriansPetStore_InventoryManagementSystem\obj\Debug\AdriansPetStore_InventoryManagementSystem.AnimalTypeModuleForm.resources
-C:\Users\Brandon Duncan\OneDrive\Desktop\C#\AdriansPetStore_InventoryManagementSystem\obj\Debug\AdriansPetStore_InventoryManagementSystem.AnimalForm.resources
-C:\Users\Brandon Duncan\OneDrive\Desktop\C#\AdriansPetStore_InventoryManagementSystem\obj\Debug\AdriansPetStore_InventoryManagementSystem.AnimalModuleForm.resources
+C:\Users\Brandon Duncan\OneDrive\Desktop\C#\AdriansPetStore_InventoryManagementSystem\obj\Debug\AdriansPetStore_InventoryManagementSystem.ProductTypeForm.resources
+C:\Users\Brandon Duncan\OneDrive\Desktop\C#\AdriansPetStore_InventoryManagementSystem\obj\Debug\AdriansPetStore_InventoryManagementSystem.ProductTypeModuleForm.resources
+C:\Users\Brandon Duncan\OneDrive\Desktop\C#\AdriansPetStore_InventoryManagementSystem\obj\Debug\AdriansPetStore_InventoryManagementSystem.ProductForm.resources
+C:\Users\Brandon Duncan\OneDrive\Desktop\C#\AdriansPetStore_InventoryManagementSystem\obj\Debug\AdriansPetStore_InventoryManagementSystem.ProductModuleForm.resources
